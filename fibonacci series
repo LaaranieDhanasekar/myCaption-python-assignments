@@ -1,0 +1,23 @@
+n=int(input("enter a number: "))
+n=n+1
+    
+def fibonacci(n):
+    a=0
+    b=1
+    s=a+b
+    a=b
+    b=s
+    i=2
+    l=[0,1]
+    while i<=n-2:
+        s=a+b
+        a=b
+        b=s
+        l.append(a)
+        i=i+1
+    print("the fibonacci series is: ",l)
+
+
+fibonacci(n)
+
+    
