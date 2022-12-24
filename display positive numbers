@@ -1,0 +1,10 @@
+#display positive numbers
+
+x=int(input("enter a list: "))
+l=[]
+for i in n:
+    if(i>0):
+        l.append(i)
+print('the positive numbers are: ',l)
+    
+    
